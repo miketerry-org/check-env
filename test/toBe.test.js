@@ -1,11 +1,12 @@
 // tests for the "toBe" comparison function
 
 // load all required modules
-const { describe, it } = require("node:test");
+const path = require("path");
 const check = require("../index.js");
+const { describe, it } = require("node:test");
 
 // load the environment variables
-require("dotenv").config();
+require("dotenv").config({ path: path.resolve("test/.testing.env") });
 
 // define all tests for the toBe comparison
 describe('tests for the "toBe comparison function', () => {

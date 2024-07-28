@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "NODE_ENV=TEST node --watch --test"
+    "test": "NODE_ENV=TEST node --test"
   },
   "keywords": [
     "check",
