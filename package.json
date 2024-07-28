@@ -1,0 +1,23 @@
+{
+  "name": "check-env",
+  "version": "1.0.0",
+  "description": "Check validity of environment variables",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "NODE_ENV=TEST node --watch --test"
+  },
+  "keywords": [
+    "check",
+    "env",
+    "environment",
+    "variables"
+  ],
+  "author": "miketerry.org",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
